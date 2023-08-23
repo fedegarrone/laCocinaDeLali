@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lali <3 - Registrate</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="encabezado">
+      <nav class="navegacion">
+        <div class="button">
+          <a href="/index.html"
+            ><p><b>Home</b></p></a
+          >
+        </div>
+        <div class="button">
+          <a href="/pages/about.html"
+            ><p><b>Acerca de</b></p></a
+          >
+        </div>
+        <div class="button">
+          <a href=""
+            ><p><b>Recetas</b></p></a
+          >
+        </div>
+        <div class="button">
+          <a href="/pages/contact.html"
+            ><p><b>Contacto</b></p></a
+          >
+        </div>
+        <div class="button">
+          <a href=""
+            ><p><b>Registrate</b></p></a
+          >
+        </div>
+      </nav>
+      <h1>La cocina de Lali <3</h1>
+    </header>
+    <main>
+      <section class="contenido">
+        <form
+          action="/index.html"
+          target="_blank"
+          method="get"
+          autocomplete="off"
+        >
+          <h3>Registrate para enterarte de las novedades!</h3>
+          <label for="nombre">Nombre: </label>
+          <input type="text" name="nombre" id="nombre" /> <br /><br />
+          <label for="apellido">Apellido: </label>
+          <input type="text" name="apellido" id="apellido" /> <br /><br />
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" /><br /><br />
+          <label for="fechanac">Fecha de Nacimiento: </label>
+          <input type="date" name="fechanac" id="fechanac" /><br /><br />
+          <label>Género: </label><br />
+          <input
+            type="radio"
+            name="genero"
+            value="hombre"
+            required
+            id="genero-h"
+          /><label for="genero-h">Hombre</label>
+          <input
+            type="radio"
+            name="genero"
+            value="mujer"
+            required
+            id="genero-m"
+          /><label for="genero-m">Mujer</label>
+          <input
+            type="radio"
+            name="genero"
+            value="no-bin"
+            required
+            id="genero-nb"
+          /><label for="genero-nb">No Binario</label> <br /><br />
+          <label for="novedades">¿Quieres recibir novedades? </label>
+          <input type="checkbox" name="novedades" id="novedades" /><br /><br />
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+    </main>
+    <footer class="pie-de-pag">
+      <h5>Creado por Federico Garrone</h5>
+    </footer>
+  </body>
+</html>
