@@ -1,0 +1,41 @@
+.bloc {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
+  flex-wrap: wrap;
+}
+
+.bloc_bis {
+  height: 10rem;
+  background-image: url("https://images.unsplash.com/photo-1690789824921-6754195c97ee?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyMTEwNjZ8&ixlib=rb-4.0.3&q=85");
+  background-size: cover;
+  background-position: center;
+  transition: 0.75s ease-in-out;
+  flex: 0.2;
+  border: 0 solid var(--color-background);
+  /* border-width: 0 0.5rem 0.5rem 0; */
+  border-right-width: 0.5rem;
+  border-bottom-width: 0.5rem;
+  border-radius: 0 2rem;
+}
+
+.bloc_bis:hover {
+  flex: 0.35;
+}
+
+.bizcochuelo-zanahoria {
+  background-image: url(/assets/img/bizcochuelo-zanahoria.jpg);
+}
+
+.torta-frita {
+  background-image: url(/assets/img/torta-fritas.webp);
+}
+
+.bizcochuelo-marmolado {
+  background-image: url(/assets/img/bizcochuelo-marmolado.jpg);
+}
+
+.alfajor-maicena {
+  background-image: url(/assets/img/alfajor-maicena.webp);
+}

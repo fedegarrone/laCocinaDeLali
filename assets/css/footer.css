@@ -1,0 +1,10 @@
+footer {
+  background-color: var(--color-background);
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+  margin-top: auto;
+  bottom: 0;
+  height: 1rem;
+  width: 100%;
+}
