@@ -1,6 +1,6 @@
-@import url(assets/css/cards.css);
-@import url(assets/css/header.css);
-@import url(assets/css/footer.css);
+@import url(cards.css);
+@import url(header.css);
+@import url(footer.css);
 
 *,
 html {
