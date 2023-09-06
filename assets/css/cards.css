@@ -11,17 +11,20 @@
   background-image: url("https://images.unsplash.com/photo-1690789824921-6754195c97ee?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyMTEwNjZ8&ixlib=rb-4.0.3&q=85");
   background-size: cover;
   background-position: center;
-  transition: 0.75s ease-in-out;
+  transition: 0.55s ease-in-out;
   flex: 0.2;
   border: 0 solid var(--color-background);
   /* border-width: 0 0.5rem 0.5rem 0; */
   border-right-width: 0.5rem;
   border-bottom-width: 0.5rem;
   border-radius: 0 2rem;
+  box-shadow: 0.25rem 0.25rem 1rem;
 }
 
 .bloc_bis:hover {
   flex: 0.35;
+  transform: translate(1rem, -2.5rem);
+  height: 15rem;
 }
 
 .bizcochuelo-zanahoria {
